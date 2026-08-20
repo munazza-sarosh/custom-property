@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+BR+Guides&display=swap');
+
 @property --my-bg-color {
     syntax: "<color>";
     inherits: true;
@@ -86,8 +87,9 @@ body {
 
 h1 {
     text-align: center;
+    color: var(--my-txt-color);
 
-    color: #333;
+    /* color: #333; */
 
     margin-bottom: 10px;
 }
@@ -126,7 +128,6 @@ select {
     border-radius: 10px;
 
     outline: none;
-
     font-size: 15px;
 }
 
@@ -134,7 +135,7 @@ input:focus,
 select:focus {
     border-color: #667eea;
 
-    box-shadow: 0 0 8px rgba(102, 126, 234, 0.3);
+    /* box-shadow: 0 0 8px rgba(102, 126, 234, 0.3); */
 }
 
 button {
